@@ -1,5 +1,8 @@
 # AI Study Buddy 🤖📚
-
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live-red)
+![Gemini AI](https://img.shields.io/badge/Gemini-AI-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 AI Study Buddy is an AI-powered learning assistant built using Python, Streamlit, and Google Gemini AI.
 
 ## 🚀 Live Demo
