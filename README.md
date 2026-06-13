@@ -5,7 +5,7 @@
 ![Gemini AI](https://img.shields.io/badge/Gemini-AI-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-![AI Study Buddy](Screenshot%202026-06-04%20180045.png)
+![AI Study Buddy](ai-study-buddy-v3.png)
 
 AI Study Buddy is an AI-powered learning assistant built using Python, Streamlit, and Google Gemini AI. It helps students learn faster by providing AI-powered answers, quizzes, and detailed study notes on any topic.
 
