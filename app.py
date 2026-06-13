@@ -62,3 +62,37 @@ if st.button("Generate Quiz"):
 
     else:
         st.warning("Please enter a topic.")
+        # ---------------- NOTES GENERATOR ----------------
+
+st.markdown("---")
+
+st.subheader("📚 Study Notes Generator")
+
+notes_topic = st.text_input("Enter a topic for notes")
+
+if st.button("Generate Notes"):
+
+    if notes_topic:
+
+        prompt = f"""
+        Create detailed study notes on {notes_topic}.
+
+        Include:
+        1. Introduction
+        2. Key Concepts
+        3. Examples
+        4. Important Points
+        5. Summary
+
+        Make it easy for students to understand.
+        """
+
+        try:
+            response = model.generate_content(prompt)
+            st.write(response.text)
+
+        except Exception as e:
+            st.error(f"Error: {e}")
+
+    else:
+        st.warning("Please enter a topic.")
